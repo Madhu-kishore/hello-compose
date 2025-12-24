@@ -6,3 +6,4 @@ services:
     container_name: hello-compose-app
     ports:
       - "3000:3000"
+
