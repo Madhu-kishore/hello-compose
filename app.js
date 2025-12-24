@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Hello from AUTO Jenkins CI/CD 🚀");
+  res.send("Hello from AUTO Jenkins CI/CD 🚀 ");
 });
 
 app.listen(3000, () => {
