@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Hello from Jenkins + Docker Compose 🚀");
+  res.send("learning the connection of Hello from Jenkins + Docker Compose 🚀");
 });
 
 app.listen(3000, () => {
